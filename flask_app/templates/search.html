@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+                <style>
+                .center {
+                         margin: auto;
+                         width: 50%;
+                         padding: 50px;
+                         margin-top: 10%;
+                }
+                .big {
+		
+                }
+                </style>
+        </head>
+
+        <body>
+                <div class="center">
+                        <h1 class="big"> Enter Search Word </h1>
+                        
+                        <br><br>
+                        
+                        <form method="POST" action="/send">
+                                <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="검색" name="word">
+                                        <div class="input-group-btn">
+                                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                        </div>
+                                </div>
+                        </form>
+                </div>
+        </body>
+</html>
+
